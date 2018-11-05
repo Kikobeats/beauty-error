@@ -7,7 +7,6 @@
 [![Dev Dependencies Status](https://img.shields.io/david/dev/Kikobeats/beauty-error.svg?style=flat-square)](https://david-dm.org/Kikobeats/beauty-error#info=devDependencies)
 [![NPM Status](https://img.shields.io/npm/dm/beauty-error.svg?style=flat-square)](https://www.npmjs.org/package/beauty-error)
 
-
 > Getting a beauty error. Oriented for well printed errors. Be beauty, no ugly.
 
 ## Install
@@ -19,31 +18,10 @@ $ npm install beauty-error --save
 ## Usage
 
 ```js
-const pretifyError = require('beauty-error')
+const beautyError = require('beauty-error')
 
-pretifyError('do something')
-// => return something
+beautyError(new Error('Something is wrong'))
 ```
-
-## API
-
-### pretifyError(input, [options])
-
-#### input
-
-*Required*<br>
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-##### foo
-
-Type: `boolean`<br>
-Default: `false`
-
-Lorem ipsum.
 
 ## License
 
