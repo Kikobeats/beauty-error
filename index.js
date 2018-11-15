@@ -48,11 +48,15 @@ const pretty = createPretty(DEFAULT_PRETTY)
 
 const getPretty = opts => (isNil(opts) ? pretty : createPretty(opts))
 
-const beautyError = (error, opts) => {
+const cleanError = error => {
   const stack = cleanStack(error.stack)
   const cleanError = { ...error, stack }
+  return cleanError
+}
+
+const beautyError = (error, opts) => {
   const pretty = getPretty(opts)
-  return pretty.render(cleanError)
+  return pretty.render(error)
 }
 
 const getError = genericError =>
@@ -62,5 +66,7 @@ const getError = genericError =>
       : castArray(genericError)
   )
 
-module.exports = flow([getError, beautyError])
-module.exports.beauty = beautyError
+module.exports = flow([getError, cleanError, beautyError])
+module.exports.beautyError = beautyError
+module.exports.cleanError = cleanError
+module.exports.getError = getError
