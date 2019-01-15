@@ -23,6 +23,11 @@ const beautyError = require('beauty-error')
 beautyError(new Error('Something is wrong'))
 ```
 
+## Related
+
+- [whoops ](https://github.com/Kikobeats/whoops) – It makes simple throw qualified errors.
+- [hard-warnings](https://github.com/jamiebuilds/hard-warnings) – Throw an error when console.warn/error are called.
+
 ## License
 
 **beauty-error** © [Kiko Beats](https://kikobeats.com), released under the [MIT](https://github.com/Kikobeats/beauty-error/blob/master/LICENSE.md) License.<br>
