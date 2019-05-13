@@ -49,9 +49,8 @@ const pretty = createPretty(DEFAULT_PRETTY)
 const getPretty = opts => (isNil(opts) ? pretty : createPretty(opts))
 
 const cleanError = error => {
-  const stack = !isNil(error.stack) ? cleanStack(error.stack) : null
-  const cleanError = { ...error, stack }
-  return cleanError
+  error.stack = !isNil(error.stack) ? cleanStack(error.stack) : null
+  return error
 }
 
 const beautyError = (error, opts) => {
