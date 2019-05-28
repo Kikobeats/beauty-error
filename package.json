@@ -1,7 +1,7 @@
 {
   "name": "beauty-error",
   "description": "Getting a beauty error. Oriented for well printed errors. Be beauty, no ugly.",
-  "homepage": "https://documentup.com/Kikobeats/beauty-error",
+  "homepage": "https://nicedoc.io/Kikobeats/beauty-error",
   "version": "1.1.5",
   "main": "index.js",
   "author": {
@@ -24,6 +24,7 @@
   ],
   "dependencies": {
     "clean-stack": "~2.0.0",
+    "ensure-error": "~2.0.0",
     "is-iterable": "~1.1.1",
     "lodash": "~4.17.11",
     "pretty-error": "~2.1.1"

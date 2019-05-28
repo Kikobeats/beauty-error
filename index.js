@@ -2,6 +2,7 @@
 
 const { flow, isNil, castArray, first } = require('lodash')
 const PrettyError = require('pretty-error')
+const ensureError = require('ensure-error')
 const cleanStack = require('clean-stack')
 const isIterable = require('is-iterable')
 
@@ -58,12 +59,15 @@ const beautyError = (error, opts) => {
   return pretty.render(error)
 }
 
-const getError = genericError =>
-  first(
+const getError = rawError => {
+  const genericError = ensureError(rawError)
+
+  return first(
     isIterable(genericError)
       ? Array.from(genericError)
       : castArray(genericError)
   )
+}
 
 module.exports = flow([getError, cleanError, beautyError])
 module.exports.beautyError = beautyError
