@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/Kikobeats/beauty-error/compare/v1.1.5...v1.2.0) (2019-05-28)
+
+
+### Build System
+
+* update dependencies ([b82702b](https://github.com/Kikobeats/beauty-error/commit/b82702b))
+
+
+### Features
+
+* ensure get error ([1f4a2d6](https://github.com/Kikobeats/beauty-error/commit/1f4a2d6))
+
+
+### Tests
+
+* update snapshot ([20f3bfc](https://github.com/Kikobeats/beauty-error/commit/20f3bfc))
+
+
+
 ### [1.1.5](https://github.com/Kikobeats/beauty-error/compare/v1.1.4...v1.1.5) (2019-05-20)
 
 
