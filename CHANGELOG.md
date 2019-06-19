@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.1](https://github.com/Kikobeats/beauty-error/compare/v1.2.0...v1.2.1) (2019-06-19)
+
+
+### Build System
+
+* update travis ([b08bdee](https://github.com/Kikobeats/beauty-error/commit/b08bdee))
+
+
+
 ## [1.2.0](https://github.com/Kikobeats/beauty-error/compare/v1.1.5...v1.2.0) (2019-05-28)
 
 
