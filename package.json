@@ -24,10 +24,10 @@
   ],
   "dependencies": {
     "clean-stack": "~3.0.0",
-    "ensure-error": "~3.0.0",
+    "ensure-error": "~3.0.1",
     "is-iterable": "~1.1.1",
-    "lodash": "~4.17.11",
-    "pretty-error": "~2.1.1"
+    "lodash": "~4.17.20",
+    "pretty-error": "~2.1.2"
   },
   "devDependencies": {
     "@commitlint/cli": "latest",
