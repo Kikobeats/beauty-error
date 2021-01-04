@@ -27,7 +27,7 @@
     "ensure-error": "~3.0.1",
     "is-iterable": "~1.1.1",
     "lodash": "~4.17.20",
-    "pretty-error": "~2.1.2"
+    "pretty-error": "~3.0.3"
   },
   "devDependencies": {
     "@commitlint/cli": "latest",
