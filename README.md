@@ -1,9 +1,7 @@
 # beauty-error
 
 ![Last version](https://img.shields.io/github/tag/Kikobeats/beauty-error.svg?style=flat-square)
-[![Build Status](https://img.shields.io/travis/Kikobeats/beauty-error/master.svg?style=flat-square)](https://travis-ci.org/Kikobeats/beauty-error)
 [![Dependency status](https://img.shields.io/david/Kikobeats/beauty-error.svg?style=flat-square)](https://david-dm.org/Kikobeats/beauty-error)
-[![Dev Dependencies Status](https://img.shields.io/david/dev/Kikobeats/beauty-error.svg?style=flat-square)](https://david-dm.org/Kikobeats/beauty-error#info=devDependencies)
 [![NPM Status](https://img.shields.io/npm/dm/beauty-error.svg?style=flat-square)](https://www.npmjs.org/package/beauty-error)
 
 > Getting a beauty error. Oriented for well printed errors. Be beauty, no ugly.
