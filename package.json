@@ -23,7 +23,7 @@
     "ugly"
   ],
   "dependencies": {
-    "clean-stack": "~3.0.1",
+    "clean-stack": "~5.0.0",
     "ensure-error": "~3.0.1",
     "is-iterable": "~1.1.1",
     "lodash": "~4.17.20",
