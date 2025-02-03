@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.2.20 (2025-02-03)
+
+
+### Bug Fixes
+
+* error.stack can be immutable ([68fdc0b](https://github.com/Kikobeats/beauty-error/commit/68fdc0b419086f0c21540d4c55dcc50e33b3c5e4))
+
 ### 1.2.19 (2025-02-03)
 
 ### 1.2.18 (2023-10-24)
