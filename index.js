@@ -50,7 +50,12 @@ const pretty = createPretty(DEFAULT_PRETTY)
 const getPretty = opts => (isNil(opts) ? pretty : createPretty(opts))
 
 const cleanError = error => {
-  if (error.stack) error.stack = cleanStack(error.stack)
+  if (error.stack) {
+    try {
+      error.stack = cleanStack(error.stack)
+    } catch (_) {}
+  }
+
   return error
 }
 
@@ -62,11 +67,7 @@ const beautyError = (error, opts) => {
 const getError = rawError => {
   const genericError = ensureError(rawError)
 
-  return first(
-    isIterable(genericError)
-      ? Array.from(genericError)
-      : castArray(genericError)
-  )
+  return first(isIterable(genericError) ? Array.from(genericError) : castArray(genericError))
 }
 
 module.exports = flow([getError, cleanError, beautyError])
