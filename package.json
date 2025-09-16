@@ -25,7 +25,7 @@
   ],
   "dependencies": {
     "clean-stack": "~3.0.1",
-    "ensure-error": "~3.0.1",
+    "ensure-error": "~5.0.0",
     "is-iterable": "~1.1.1",
     "lodash": "~4.17.20",
     "pretty-error": "~4.0.0"
