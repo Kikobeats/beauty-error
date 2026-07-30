@@ -1,6 +1,6 @@
 {
   "name": "beauty-error",
-  "description": "Getting a beauty error. Oriented for well printed errors. Be beauty, no ugly.",
+  "description": "Pretty-print Error objects for terminals and logs with readable stacks and colors.",
   "homepage": "https://github.com/Kikobeats/beauty-error",
   "version": "1.2.23",
   "main": "index.js",
@@ -18,10 +18,16 @@
     "url": "https://github.com/Kikobeats/beauty-error/issues"
   },
   "keywords": [
+    "beautify",
     "error",
+    "format",
+    "inspect",
+    "log",
     "pretty",
+    "print",
     "render",
-    "ugly"
+    "stack",
+    "terminal"
   ],
   "dependencies": {
     "clean-stack": "~3.0.1",
@@ -76,6 +82,7 @@
   },
   "nano-staged": {
     "*.js": [
+      "npx @kikobeats/prettier-standard",
       "standard --fix"
     ],
     "package.json": [
