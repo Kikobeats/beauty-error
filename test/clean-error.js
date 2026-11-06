@@ -1,6 +1,6 @@
 'use strict'
 
-const test = require('ava')
+const test = require('ava').default
 const { cleanError } = require('..')
 
 test("don't fail if stack can't be reassigned", t => {
